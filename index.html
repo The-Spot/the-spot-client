@@ -16,7 +16,7 @@
 
     <video id="video" preload="true" autoplay loop muted>
         <!-- <source src="./images/concert.mp4"> -->
-          <source src="./images/city.mp4">
+          <source src="./video/city.mp4">
     </video>
 
 
@@ -24,20 +24,32 @@
       <div>
         <h1><a href="">THE SPOT</a></h1>
         <p>find an event</p>
-      </div>  
+      </div>
+      <button class="enter" type="submit">Submit</button>
     </section>
 
 
     <section class="form container">
-
+      <form id="landing-form">
+        <input id="budget" type="text" placeholder="Budget">
+        <input id="location" type="text" placeholder="Location">
+        <input type="datetime">
+        <button class="show-results"type="submit">Submit</button>
+      </form>
     </section>
 
 
     <section class="results container">
-
+      <img src='http://via.placeholder.com/300x600'>
+      <img src='http://via.placeholder.com/300x600'>
+      <img src='http://via.placeholder.com/300x600'>
+      <img src='http://via.placeholder.com/300x600'>
     </section>
 
-  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src='https://cdn.rawgit.com/visionmedia/page.js/master/page.js'></script>
+    <!-- <script src="./scripts/controller/routes.js"></script> -->
+    <script src="./scripts/views/view.js"></script>
 </body>
 
 </html>
