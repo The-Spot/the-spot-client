@@ -9,3 +9,7 @@ The Spot:  Client Side Application
 
 Started on initializing client side structure.
 
+##### 4-26-18
+
+The client wireframe for a SPA is up, visually functional.
+
