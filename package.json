@@ -17,6 +17,10 @@
   },
   "homepage": "https://github.com/The-Spot/the-spot-client#readme",
   "dependencies": {
+    "cors": "^2.8.4",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
     "page": "^1.8.6"
-  }
+  },
+  "devDependencies": {}
 }
