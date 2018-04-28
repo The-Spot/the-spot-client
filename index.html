@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>The Spot</title>
+  <link href="https://fonts.googleapis.com/css?family=Prosto+One" rel="stylesheet">
   <link rel="stylesheet" href="./styles/base.css">
   <link rel="stylesheet" href="./styles/layout.css">
   <link rel="stylesheet" href="./styles/modules.css">
@@ -13,35 +14,33 @@
 </head>
 
 <body>
-  <div class="overlay">
     <video id="video" preload="true" autoplay loop muted>
-        <!-- <source src="./images/concert.mp4"> -->
-          <!-- <source src="./images/city.mp4"> -->
-            <!-- <source src="./images/city1.mp4"> -->
-              <!-- <source src="./images/city2.mp4"> -->
-                <source src="./images/city3.mp4">
-          <!-- <source src="./video/city.mp4"> -->
+        <source src="./video/concert.mp4">
+        <!-- <source src="./video/city1.mp4"> -->
+        <!-- <source src="./video/city2.mp4"> -->
+        <!-- <source src="./video/city3.mp4"> -->
+        <!-- <source src="./video/city.mp4"> -->
     </video>
-  </div>  
 
 
     <section class="home container">
       <div>
         <h1><a href="">THE SPOT</a></h1>
-        <p>find an event</p>
+        <p class="red">find your event</p>
       </div>
-      <button class="enter" type="submit">Submit</button>
+      <button class="enter" type="submit">SEARCH</button>
     </section>
-
 
     <section class="form container">
-      <form id="landing-form">
-        <input id="budget" type="text" placeholder="Budget">
-        <input id="location" type="text" placeholder="Location">
-        <input type="datetime">
-        <button class="show-results"type="submit">Submit</button>
-      </form>
-    </section>
+    <fieldset>
+        <form id="landing-form">
+          <input id="budget" type="text" placeholder="Budget">
+          <input id="location" type="text" placeholder="Location">
+          <input id="date-time" type="datetime" placeholder="Date and Time">
+          <button class="show-results"type="submit">Submit</button>
+        </form>
+      </fieldset>
+      </section>
 
 
     <section class="results container">
