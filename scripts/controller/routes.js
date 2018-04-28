@@ -1,9 +1,9 @@
 'use strict';
 
 page('/find', find => { 
-    $('.enter').on('submit', (event) => {
-        $('.home container'.hide())
-    })
+  $('.enter').on('submit', (event) => {
+    $('.home container'.hide())
+  })
 
 });
 
