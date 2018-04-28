@@ -10,11 +10,3 @@ $('.enter').click('submit', (event) => {
   $('.container').hide();
   $('.form').show();
 });
-
-
-// $('.show-results').click('submit', (event) => {
-//   event.preventDefault();
-//   $('.container').hide();
-//   $('.results').show();
-// });
-
