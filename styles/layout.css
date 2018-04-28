@@ -2,7 +2,7 @@
 h1 a{
   color: rgb(0, 41, 20);
   text-decoration: none;
-  border-bottom: 10px solid  rgb(25, 114, 68);
+  border-bottom: 10px solid  rgb(16, 83, 92);
 }
 
 section {
@@ -14,6 +14,12 @@ section {
 
 fieldset {
   border: 2px solid black;
+  box-shadow: 0 0 0 2px black;
 }
 
 
+.footer {
+  height: 50px;
+  background-color: rgb(16, 83, 92);
+  
+}
