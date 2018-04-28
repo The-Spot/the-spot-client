@@ -1,10 +1,14 @@
+* {
+  font-family:  'Prosto One', cursive;
+}
+
 body, html {
   height: 100%;
   display: grid;
 }
 
 body {
-  width: 100%;
+  max-width: 100%;
 }
 
 #video {

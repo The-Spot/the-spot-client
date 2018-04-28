@@ -1,0 +1,32 @@
+
+
+.red {
+  color: rgb(77, 175, 124);
+  font-size: 70%;
+}
+
+.enter {
+  color: white;
+  background-color: rgb(65, 0, 25);
+  padding: 15px 50px;
+  border: 1px solid  rgb(0, 41, 20);
+  border-radius: 20%;
+}
+
+.enter:hover {
+  transition-duration: 0.4s;
+  background-color: black;
+  box-shadow: 0 0 20px 14px white;
+}
+
+
+.form {
+  width: 40%;
+  background-color: white;
+  opacity: .7;
+}
+
+form * {
+  display: block;
+  margin: auto;
+}
