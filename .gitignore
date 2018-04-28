@@ -126,5 +126,6 @@ $RECYCLE.BIN/
 *.lnk
 
 .env
+node_modules
 
 # End of https://www.gitignore.io/api/node,macos,linux,windows
