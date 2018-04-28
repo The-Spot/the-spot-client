@@ -38,12 +38,13 @@ ENV.apiUrl = ENV.isProduction ? ENV.productionApiUrl : ENV.developmentApiUrl;
     $('#budget').val(''),
     $('#location').val(''),
     $('#date-time').val('')
+    $('.container').hide();
+    $('.results').show();
 
   }
 
-  $('#landing-form').on('submit',SearchObj.submit);
-  
-  
+  $('#landing-form').on('submit', SearchObj.submit);
+
   module.SearchObj = SearchObj;
 
 })(app);
