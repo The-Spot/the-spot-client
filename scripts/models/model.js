@@ -17,7 +17,7 @@ ENV.apiUrl = ENV.isProduction ? ENV.productionApiUrl : ENV.developmentApiUrl;
   // function SearchObj
 
   SearchObj.create = function(key) {
-    $.post(`${ENV.apiUrl}/api/v1/keys`, {
+    $.post(`${ENV.apiUrl}/`, {
       budget: key.budget,
       location: key.location,
       datetime: key.datetime
@@ -33,24 +33,17 @@ ENV.apiUrl = ENV.isProduction ? ENV.productionApiUrl : ENV.developmentApiUrl;
       location : $('#location').val(),
       datetime : $('#date-time').val()
     };
-    SearchObj.create(key);
     console.log('key', key)
+    SearchObj.create(key);
+    $('#budget').val(''),
+    $('#location').val(''),
+    $('#date-time').val('')
+
   }
-  
 
   $('#landing-form').on('submit',SearchObj.submit);
-
+  
+  
   module.SearchObj = SearchObj;
 
 })(app);
-
-
-// Container.search = callback => 
-//     $.post(`${ENV.apiUrl}/submit`,{keywords: $('#keywords').val()})
-//      .then(results => {
-//         let searchObj = results.webPages.value;
-//             searchObj.forEach(element => {
-//                 $('.collection').append(Container.render(element));
-//             });
-//             $('.results').show();
-//         })
